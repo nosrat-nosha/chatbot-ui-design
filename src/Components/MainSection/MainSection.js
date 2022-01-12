@@ -46,7 +46,7 @@ const MainSection = () => {
 					</div>
 					{/* body  */}
 					<div className="main-body shadow-lg ">
-						<div className=" container body  p-5">
+						<div className=" container body body-lg p-5">
 							<div className="robot-body animate__animated animate__rotateInDownLeft ">
 								<i class="fas fa-robot fa-2x robot-icon"></i>
 							</div>

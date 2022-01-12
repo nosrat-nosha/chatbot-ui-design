@@ -41,6 +41,7 @@
 	height: 420px;
 	margin-bottom: 20px;
 }
+
 .body {
 	position: absolute;
 	margin: 0 auto;
@@ -48,7 +49,7 @@
 	width: 390px;
 	background-color: #fff;
 	margin-top: -60px;
-	margin-left: 380px;
+	margin-left: 350px;
 	border-radius: 20px;
 	background: #ffffff;
 	border: 1px solid #e4e4e4;
@@ -105,14 +106,8 @@
 .chat {
 	width: 20px;
 }
-/* Animation  */
-/* .animate__animated .animate__fadeInRight {
-	--animate-duration: 5s;
-	--animate-delay: 1000s;
-} */
-/* media query */
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px) {
+
+@media screen and (min-width: 320px) {
 	.body {
 		position: absolute;
 		margin: 0 auto;
@@ -120,7 +115,7 @@
 		width: 340px;
 		background-color: #fff;
 		margin-top: -60px;
-		margin-left: 4px;
+		margin-left: 6px;
 		border-radius: 20px;
 		background: #ffffff;
 		border: 1px solid #e4e4e4;
@@ -129,6 +124,32 @@
 	}
 	.faq-qus {
 		width: 300px;
+		height: 50px;
+		/* margin-left: -21px; */
+		background: #ffffff;
+		border: 1px solid #e1e1e1;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+		border-radius: 8px;
+	}
+}
+@media screen and (min-width: 360px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 320px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 6px;
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+	.faq-qus {
+		width: 289px;
 		height: 50px;
 		/* margin-left: -21px; */
 		background: #ffffff;
@@ -154,121 +175,3 @@
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 	}
 }
-/* @media only screen and (max-width: 1100px) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 390px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 260px;
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-}
-@media only screen and (max-width: 1100px) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 390px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 150px;
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-}
-@media only screen and (max-width: 767px) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 390px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 65px;
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-}
-@media only screen and (max-width: 575px) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 390px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 80px;
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-}
-@media only screen and (min-width: 400px) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 350px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 20px;
-
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-	.faq-qus {
-		width: 300px;
-		height: 50px;
-		margin-left: -21px;
-		background: #ffffff;
-		border: 1px solid #e1e1e1;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
-		border-radius: 8px;
-	}
-}
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-	.body {
-		position: absolute;
-		margin: 0 auto;
-		height: 450px;
-		width: 200px;
-		background-color: #fff;
-		margin-top: -60px;
-		margin-left: 20px;
-
-		border-radius: 20px;
-		background: #ffffff;
-		border: 1px solid #e4e4e4;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-	}
-	.faq-qus {
-		width: 300px;
-		height: 50px;
-		margin-left: -21px;
-		background: #ffffff;
-		border: 1px solid #e1e1e1;
-		box-sizing: border-box;
-		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
-		border-radius: 8px;
-	}
-} */
