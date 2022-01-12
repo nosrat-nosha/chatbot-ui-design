@@ -1,0 +1,204 @@
+.header {
+	height: 278px;
+	background-color: #f5821f;
+	color: #fff;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-top: 20px;
+}
+.heading1 {
+	font-size: 30px;
+	margin-left: 56px;
+	position: absolute;
+	margin-top: 20px;
+}
+
+.heading2 {
+	font-size: 22px;
+	margin-left: 56px;
+	margin-top: 66px;
+	position: absolute;
+}
+.waveHand {
+	width: 21.75px;
+	height: 23.61px;
+	margin-top: 70px;
+	position: absolute;
+	margin-left: 130px;
+}
+.text {
+	font-size: 18px;
+	margin-left: 56px;
+	margin-top: 105px;
+	position: absolute;
+	line-height: 23px;
+	font-weight: 500;
+}
+.main-body {
+	background-color: #fff;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	height: 420px;
+	margin-bottom: 20px;
+}
+.body {
+	position: absolute;
+	margin: 0 auto;
+	height: 450px;
+	width: 390px;
+	background-color: #fff;
+	margin-top: -60px;
+	margin-left: 380px;
+	border-radius: 20px;
+	background: #ffffff;
+	border: 1px solid #e4e4e4;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+.robot-body {
+	width: 67px;
+	height: 67px;
+	left: 38px;
+	background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+	border-radius: 50px;
+	margin-top: -83px;
+}
+.robot-icon {
+	color: #fff;
+	margin: 23% 15% 50% 21%;
+}
+.faq-title {
+	font-size: 14px;
+	line-height: 18.23px;
+	margin-left: -11px;
+}
+.faq-qus {
+	width: 339px;
+	height: 50px;
+	margin-left: -21px;
+	background: #ffffff;
+	border: 1px solid #e1e1e1;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+}
+.dot {
+	width: 7px;
+	padding: 0px;
+}
+.faq-text {
+	font-size: 12px;
+	margin-left: -6px;
+}
+
+.faq-chat {
+	width: 268px;
+	height: 50px;
+	margin: 0 auto;
+	background: #ffffff;
+	border: 1px solid #d1d1d1;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 100px;
+}
+.chat {
+	width: 20px;
+}
+/* Animation  */
+/* .animate__animated .animate__fadeInRight {
+	--animate-duration: 5s;
+	--animate-delay: 1000s;
+} */
+/* media query */
+@media only screen and (max-width: 1100px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 390px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 260px;
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 390px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 150px;
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+}
+@media only screen and (max-width: 767px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 390px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 65px;
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+}
+@media only screen and (max-width: 575px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 390px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 80px;
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+}
+@media only screen and (max-width: 400px) {
+	.body {
+		position: absolute;
+		margin: 0 auto;
+		height: 450px;
+		width: 350px;
+		background-color: #fff;
+		margin-top: -60px;
+		margin-left: 20px;
+
+		border-radius: 20px;
+		background: #ffffff;
+		border: 1px solid #e4e4e4;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	}
+	.faq-qus {
+		width: 300px;
+		height: 50px;
+		margin-left: -21px;
+		background: #ffffff;
+		border: 1px solid #e1e1e1;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+		border-radius: 8px;
+	}
+}
